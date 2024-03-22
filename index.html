@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,9 +7,16 @@
     <link type="text/css" rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Informations Personnelles du Candidat ✨</h1>
-    <br />
-
+    <h1 id="top">Informations Personnelles du Candidat</h1>
+    <nav id="navigation">
+      <ul>
+        <li><a href="#s1">Form informations du Candidat</a></li>
+        <li><a href="#s2">Cursus</a></li>
+        <li><a href="#s3">Langages de Programmation maîtrisés</a></li>
+        <li><a href="#s4">Exercice</a></li>
+        <li><a href="#vacances">Vacances</a></li>
+      </ul>
+    </nav>
     <fieldset>
       <section id="s1">
         <!--DÉBUT DE LA PREMIER SECTION-->
@@ -139,6 +146,43 @@
           </code></pre>
         </div>
       </section>
+      <p>
+        Le code d'une page web doit être soigneusement encapsulé entre les
+        balises &lt;HTML&gt; et &lt;/HTML&gt;, formant ainsi le cadre essentiel
+        de toute structure HTML. À l'intérieur de cet ensemble, une diversité de
+        contenus peut être inclus, allant du texte simple aux éléments plus
+        complexes, comme des formules mathématiques. Par exemple, une formule
+        mathématique courante telle que πi = α(X₁ + Y₂)^(k+1)/λᵢ peut être
+        aisément intégrée dans le code HTML, enrichissant ainsi le contenu et la
+        fonctionnalité de la page web.
+      </p>
+      <section id="vacances">
+        <!--DÉBUT DE LA CINQUIÉME SECTION-->
+        <h2>Vacances en Images</h2>
+        <ul class="vacances-list">
+          <li>
+            <a href="vacances.htm#Islande" src="images/icelande.jpg">
+              <img src="images/icelande.jpg"
+            /></a>
+            Islande
+          </li>
+          <li>
+            <a href="vacances.htm#italie"><img src="images/italy.jpg" /></a
+            >Italie
+          </li>
+          <li>
+            <a href="vacances.htm#SudAfrique"
+              ><img src="images/sudAfrique.jpg"
+            /></a>
+            Sud Afrique
+          </li>
+          <li>
+            <a href="vacances.htm#Grèce"><img src="images/gréce.jpg" /></a>
+            Grèce
+          </li>
+        </ul>
+      </section>
     </fieldset>
+    <footer><a href="#top">HAUT DE PAGE</a></footer>
   </body>
 </html>

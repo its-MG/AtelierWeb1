@@ -8,27 +8,30 @@ body {
   padding-left: 25%;
   padding-right: 25%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 h1 {
   text-align: center;
   color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 90px;
 }
-
-h3 {
+h3,
+h2,
+p {
   margin-left: 5%;
   color: whitesmoke;
   text-align: left;
 }
-
 #ad {
   font-family: "Courier New", Courier, monospace;
   font-size: 10px;
 }
-
 .Etab {
   font-style: italic;
 }
-
 label {
   color: whitesmoke;
   text-align: left;
@@ -38,21 +41,11 @@ label {
   font-family: "Times New Roman", Times, serif;
 }
 
-#s1 {
-  padding-left: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-#s3 {
-  margin-top: 5%;
-  margin-left: 5%;
-}
 fieldset {
   border-radius: 10px;
   border: 2px solid #96a6bd;
   margin-bottom: 10%;
 }
-
 input,
 select {
   vertical-align: auto;
@@ -64,14 +57,26 @@ select {
   font-family: "Times New Roman", Times, serif;
   font-size: 12;
 }
+#s1 {
+  padding-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#s3 {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#vacances {
+  margin-top: 10%;
+}
 
 hr {
   width: 80%;
   border-color: #96a6bd;
   background-color: #96a6bd;
-  height: 2px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 1px;
+  display: block;
+  margin-right: 100px;
 }
 ol,
 ul {
@@ -81,16 +86,13 @@ img {
   width: 40px;
   margin-top: 10px;
 }
-button {
-  padding: 10px;
-  width: 100px;
-  text-align: center;
-  background-color: rgb(52, 52, 108);
-  border-radius: 10px;
-  margin-right: 0px;
-}
+
 .code {
   font-family: monospace;
+  width: 85%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #f4f4f4;
   padding: 10px;
   border-radius: 5px;
@@ -99,4 +101,34 @@ button {
 
 .keyword {
   color: red;
+}
+a {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+#navigation {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 20px;
+  background-color: #f0f0f032;
+  border-radius: 10px;
+}
+
+#navigation ul {
+  list-style-type: decimal;
+  padding-left: 10px;
+}
+#navigation ul li {
+  margin-bottom: 5px;
+}
+.vacances-list img {
+  margin-right: 10px;
+  width: 50px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 10%;
 }
