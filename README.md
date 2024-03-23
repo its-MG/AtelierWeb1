@@ -1,5 +1,5 @@
 # AtelierWeb1
-Travaux pratique programmation web
+Travaux pratiques programmation web
 
 Atelier numéro 01
 
